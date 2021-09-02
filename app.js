@@ -27,8 +27,8 @@ const searchBook = () => {
     clearElements();
     const div = document.createElement("div");
     div.innerHTML = `
-        <div class="h-100 p-2 mb-3 text-warning">
-          <h5>Please Enter a Keyword! </h5>
+        <div class="h-100 p-2 mb-3 text-danger">
+          <h4>Please Enter a Keyword! </h4>
           </div>
         </div>
     `;
